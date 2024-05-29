@@ -1,0 +1,15 @@
+{
+    "name": "phpomg/psr14",
+    "description": "php psr14",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPOMG\\Psr14\\": "src/"
+        }
+    },
+    "require": {
+        "psr/event-dispatcher": "^1.0",
+        "fig/event-dispatcher-util": "^1.3"
+    }
+}
